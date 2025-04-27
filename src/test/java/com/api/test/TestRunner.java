@@ -15,11 +15,11 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 				"json:target/cucumber/cucumber.json",
 				"com.api.utils.MyTestListener"
 		},
-		features= {"src\\test\\resources\\features\\CreateBooking.feature"}
+		features= {"src\\test\\resources\\features\\petstore.feature"}
 		,glue = {"com.api.stepdefinition"}
 		//,dryRun = true
 		,monochrome = true
-		,tags = "@create_updated_user"
+//		,tags = "@pet_order"
 		)
 public class TestRunner {
 }
