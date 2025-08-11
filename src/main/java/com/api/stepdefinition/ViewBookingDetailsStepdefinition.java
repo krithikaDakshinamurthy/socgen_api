@@ -21,10 +21,7 @@ public class ViewBookingDetailsStepdefinition {
 		this.context = context;
 	}
 
-	@Given("user has access to endpoint {string}")
-	public void userHasAccessToEndpoint(String endpoint) {		
-		context.session.put("endpoint", endpoint);
-	}
+	
 
 	@When("user makes a request to view booking IDs")
 	public void userMakesARequestToViewBookingIDs() {
