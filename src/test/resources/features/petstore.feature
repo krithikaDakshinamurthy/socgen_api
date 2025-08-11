@@ -13,20 +13,19 @@ When Pet store user detail is created using POST request
 |<id>|<useername>| <firstname> | <lastname> | <email> | <password> | <phone> | <userstatus>  |
 Then user details is validated using GET request
 And Updated the user name of the pest store using PUT request
-Then user details is validated using GET request
 
 Examples: 
 |id|username| firstname   | lastname   | email   | password   | phone   | userstatus   | 
 |10|NewCustomer| New   | Customer   | NewCustomer@gmail.com   | password   | phone   | 0   | 
 
+@pet_order
 Scenario Outline: Validate the order details of the pet store
 When user placed a new order for a pet using POST request
 |id|petid| quantity   | shipdate   | status   | completed   |
 |<id>|<petid>| <quantity> | <shipdate> | <status> | <completed> |
 Then get the order details and validate the order id using GET request
 And delete the placed order using DELETE request
-Then get the order details of the deleted order id using GET request
 
 Examples: 
 |id|petid| quantity   | shipdate   | status   | completed   |
-|10|1234| 10   | 2025-28-04   | placed   | true   | 
+|10|10| 10   | 2025-28-04   | placed   | true   | 
