@@ -26,7 +26,7 @@ public class mergeAndSortArray {
 			 c[a1+i]=arr2[i];
 		 }
 		 
-		 System.out.println(""+Arrays.toString(c));
+		 System.out.println(Arrays.toString(c));
 	}
 
 }

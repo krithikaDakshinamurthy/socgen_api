@@ -1,7 +1,6 @@
 package com.api.test;
 
 import java.util.Arrays;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class removeStringDuplicate {

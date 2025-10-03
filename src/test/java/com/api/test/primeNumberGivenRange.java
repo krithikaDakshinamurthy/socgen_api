@@ -1,4 +1,4 @@
-ipackage com.api.test;
+package com.api.test;
 
 public class primeNumberGivenRange {
 

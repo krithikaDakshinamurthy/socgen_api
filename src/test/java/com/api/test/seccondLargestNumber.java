@@ -2,9 +2,9 @@ package com.api.test;
 
 public class seccondLargestNumber {
 
-	 static void main(String[] args) {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[] = {10,20,30,40,50,60,90};
+		int arr[] = {10,20,30,40,50,60,90,15};
 		int temp ;
 		for (int i=0;i<arr.length;i++)
 		{
@@ -17,9 +17,9 @@ public class seccondLargestNumber {
 					arr[j] = temp;
 					}	
 			}
-			
+			System.out.println(arr[i]);
 		}
-	//	System.out.println(arr[arr.length-2]);
+		System.out.println(arr[arr.length-2]);
 	}
 
 }
